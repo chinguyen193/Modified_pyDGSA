@@ -435,6 +435,6 @@ df_sc_sens.Year = df_sc_sens.Year.astype(int)
 
 df_sc_sens = pd.merge(df_sc_sens, data_ctrl, on=['Year','Sta_ID'], how='inner') 
 
-fout_csv = r"W:\work\99_Working\0_Chi\1_Paper rainfall impacts on hydrodynamic model\Test_runs\Model_Outputs\Comparisons\Analysis\Long_tables"
-df_sc_sens.to_csv(fout_csv + '/Year_subcatch_SA_FA_NSE_individual_GP_10sc.csv', sep = ",")
+#fout_csv = r"W:\work\99_Working\0_Chi\1_Paper rainfall impacts on hydrodynamic model\Test_runs\Model_Outputs\Comparisons\Analysis\Long_tables"
+#df_sc_sens.to_csv(fout_csv + '/Year_subcatch_SA_FA_NSE_individual_GP_10sc.csv', sep = ",")
 
